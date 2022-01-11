@@ -1,0 +1,433 @@
+/************************************ Media Query ************************************************************************/
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (max-width: 1200px) {
+    /* Service */
+    .service-container {
+        width: 90%;
+    }
+    /* Barbers */
+    .barbers {
+        margin-bottom: 450px;
+    }
+    /* Message */
+    .message-container img {
+        display: none;
+    }
+    .message-forms {
+        width: 100%;
+    }
+    /* Contact */
+    .contact-container {
+        width: 90%;
+    }
+    .contact-container {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+/**********************************************************************************/
+
+@media only screen and (max-width: 1113px) {
+    /* Service */
+    .service {
+        margin-bottom: 500px;
+    }
+    /* Blog */
+    .blog {
+        margin-bottom: 500px;
+    }
+    /* About */
+    .about-container {
+        width: 90%;
+    }
+    .about-paragraph {
+        align-self: flex-start;
+    }
+    .about-paragraph-header h2 {
+        font-size: 2.5em;
+    }
+    .about-img {
+        position: relative;
+        height: 85%;
+    }
+    .about-paragraph {
+        margin-left: 0;
+    }
+    .about-img-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 376px;
+        width: 308px;
+    }
+    .about-img-border {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        height: 376px;
+        width: 308px;
+    }
+    .about-img-image {
+        position: absolute;
+        top: 60px;
+        left: 60px;
+        height: 376px;
+        width: 308px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (max-width: 992px) {
+    /* Home & Header*/
+    .burger-menu-header {
+        visibility: visible;
+    }
+    .burger-menu-icon {
+        visibility: visible;
+    }
+    .header-nav-btn {
+        display: none;
+    }
+    .hidden-header-nav-btn {
+        display: none;
+    }
+    .header-nav-logo {
+        width: 40%;
+    }
+    .home-img {
+        display: none;
+    }
+    .home-text-scissor img {
+        position: absolute;
+        left: 30px;
+        top: 30px;
+        height: 75px;
+    }
+    .home-text {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-text-container {
+        top: -100px;
+        width: 70%;
+    }
+    .home-text-name {
+        justify-content: center;
+    }
+    .home-text-name-rectangle {
+        margin-right: 55px;
+    }
+    .home-text-name-line {
+        display: none;
+    }
+    .home-text-motto-p,
+    .home-text-paragraph-quotes {
+        text-align: center;
+    }
+    .home-text-buttons {
+        justify-content: center;
+    }
+    .hidden-header-nav-logo {
+        width: 100%;
+    }
+    .price {
+        margin-bottom: 250px;
+    }
+    .contact {
+        margin-top: 50px;
+        height: 620px;
+        align-items: flex-start;
+    }
+    .contact-container {
+        margin-top: 50px;
+        position: relative;
+    }
+    .contact-info {
+        width: 90%;
+    }
+    .contact-info-address,
+    .contact-info-link {
+        width: 50%;
+    }
+    .contact-info-newsletter {
+        width: 100%;
+    }
+    .contact-copyright {
+        align-items: flex-end;
+        position: absolute;
+        bottom: -230px;
+        width: 90%;
+    }
+    .contact-copyright div p {
+        font-size: 15px;
+    }
+    .contact-copyright div:nth-child(1) {
+        width: 60%;
+    }
+    .contact-copyright div:nth-child(2) {
+        width: 40%;
+    }
+}
+
+
+/********************************************************************************/
+
+@media only screen and (max-width: 883px) {
+    .about-container {
+        position: relative;
+        width: 90%;
+    }
+    .about-paragraph {
+        position: absolute;
+        width: 45%;
+        top: -50px;
+        right: -20px;
+        margin-left: 20px;
+    }
+    .service-header {
+        width: 70%;
+    }
+    .price-header {
+        width: 70%;
+    }
+    .blog-header {
+        width: 70%;
+    }
+    .contact-copyright div:nth-child(1) {
+        width: 56%;
+    }
+    .contact-copyright div:nth-child(2) {
+        width: 44%;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+    .header-nav-logo {
+        width: 100%;
+    }
+    /******************************************/
+    .about {
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 80px;
+        margin-bottom: 325px;
+    }
+    .about-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+    }
+    .about-img {
+        width: 480px;
+        display: flex;
+        position: relative;
+    }
+    .about-paragraph {
+        margin-top: 230px;
+        position: relative;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .about-img-background {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 490px;
+        width: 405px;
+    }
+    .about-img-border {
+        height: 490px;
+        width: 405px;
+        top: 35px;
+        left: 35px;
+    }
+    .about-img-image {
+        height: 490px;
+        width: 405px;
+        top: 70px;
+        left: 70px;
+    }
+    .price {
+        margin-bottom: 300px;
+    }
+    .barbers-content {
+        margin-top: 80px;
+    }
+    .message {
+        margin-top: 100px;
+    }
+    .blog {
+        margin-top: 20px;
+    }
+    .blog-image {
+        margin-top: 30px;
+    }
+    .contact {
+        height: 670px;
+    }
+    .contact-copyright {
+        height: 130px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .contact-copyright div:nth-child(1) {
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 30px;
+    }
+    .contact-copyright div:nth-child(2) {
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 70px;
+    }
+}
+
+@media only screen and (max-width: 748px) {
+    .service {
+        margin-bottom: 1050px;
+    }
+    .blog {
+        margin-bottom: 1050px;
+    }
+    .service-header {
+        width: 90%;
+    }
+    .price-header {
+        width: 90%;
+    }
+    .barbers-header {
+        width: 90%;
+    }
+    .blog-header {
+        width: 90%;
+    }
+    .testimonial-item {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 658px) {
+    .price {
+        margin-bottom: 950px;
+    }
+}
+
+@media only screen and (max-width: 608px) {
+    .barbers {
+        margin-bottom: 1650px;
+    }
+    .barbers-content {
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width: 705px) {
+    .contact {
+        height: 950px;
+    }
+    .contact-info-address,
+    .contact-info-link {
+        width: 100%;
+    }
+    .contact-info-newsletter {
+        width: 100%;
+    }
+    .contact-copyright {
+        bottom: -510px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 600px) {
+    .home-text-container {
+        width: 80%;
+    }
+    .about {
+        margin-bottom: 300px;
+        position: relative;
+    }
+    .about-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+    }
+    .about-img {
+        width: 380px;
+        position: relative;
+    }
+    .about-paragraph {
+        width: 100%;
+        margin-top: 170px;
+    }
+    .about-img-background {
+        height: 423px;
+        width: 333px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .about-img-border {
+        height: 423px;
+        width: 333px;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+    .about-img-image {
+        height: 423px;
+        width: 333px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    .service {
+        margin-bottom: 1050px;
+    }
+    .service-image {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: space-evenly;
+    }
+    .service-image>div {
+        margin-bottom: 40px;
+    }
+    .blog {
+        margin-bottom: 1000px;
+    }
+    .blog-image {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: space-evenly;
+    }
+    .blog-image>div {
+        margin-bottom: 40px;
+    }
+}

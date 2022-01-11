@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Jeff's Barbershop 1.1</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Css & Js File -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/query.css" rel="stylesheet">
+    <script defer src="js/main.js"></script>
+
+    <!-- Tab Icon-->
+    <link rel="shortcut icon" href="img/scissor-icon-tab.png">
+
+    <!-- AOS Library-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link href='https://fonts.googleapis.com/css?family=Rufina' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- fa Library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body onscroll="headerScroll()">
+
+    <!-- #Nav Bar -->
+    <header class="header" id="header">
+        <div class="header-nav">
+            <div class="header-nav-logo">
+                <h2>Jeff's Barbershop</h2>
+            </div>
+            <div class="header-nav-btn">
+                <a href="#home" class="header-nav-home">Home</a>
+                <a href="#about" class="header-nav-about">About</a>
+                <a href="#service" class="header-nav-service">Service</a>
+                <a href="#price" class="header-nav-price">Price</a>
+                <a href="#barbers" class="header-nav-gallery">Barbers</a>
+                <a href="#contact" class="header-nav-contact">Contact</a>
+            </div>
+        </div>
+    </header>
+    <!-- # Hidden Nav Bar -->
+    <header class="hidden-header" id="hidden-header">
+        <div class="hidden-header-nav">
+            <div class="hidden-header-nav-logo">
+                <h2>Jeff's Barbershop</h2>
+            </div>
+            <div class="hidden-header-nav-btn">
+                <a href="#home" class="hidden-nav-home">Home</a>
+                <a href="#about" class="hidden-nav-about">About</a>
+                <a href="#service" class="hidden-nav-service">Service</a>
+                <a href="#price" class="hidden-nav-price">Price</a>
+                <a href="#barbers" class="hidden-nav-gallery">Barbers</a>
+                <a href="#contact" class="hidden-nav-contact">Contact</a>
+            </div>
+            <!-- Burger Menu -->
+            <div class="burger-menu-icon" onclick="menuIcon(this)">
+                <div class="bar1-burger"></div>
+                <div class="bar2-burger"></div>
+                <div class="bar3-burger"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Burger Icon Dropdown-->
+    <div class="menu-dropdown">
+        <div class="menu-dropdown-container">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#price">Price</a>
+            <a href="#barbers">Barbers</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <!-- Burger Icon Dropdown Hidden-->
+    <div class="menu-dropdown-hidden">
+        <div class="menu-dropdown-container-hidden">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#price">Price</a>
+            <a href="#barbers">Barbers</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+
+
+    <!-- #Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="home-text-container">
+                <div class="home-text-scissor">
+                    <img src="img/scissor-icon.png">
+                </div>
+                <div class="home-text-name">
+                    <div class="home-text-name-rectangle"></div>
+                    <h5>Fill Like Home</h5>
+                    <div class="home-text-name-line"></div>
+                </div>
+                <div class="home-text-motto">
+                    <p class="home-text-motto-p">Haircut For</p>
+                    <p class="home-text-motto-p">Real Gentleman</p>
+                </div>
+                <div class="home-text-paragraph">
+                    <p class="home-text-paragraph-quotes">This is a barbershop, not a hair salon. You come in here not trying to impress anyone. It's a place just to talk, to hang out with the fellows, talk about sports, women, relationships.</p>
+                </div>
+                <div class="home-text-buttons">
+                    <button class="home-text-buttons-booking"> Book Now</button>
+                    <button class="home-text-buttons-contact">Contact Us</button>
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="img/jeff-home-icon.png">
+            <div class="home-img-circle"></div>
+        </div>
+    </section>
+
+
+
+    <!-- #About Us -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-img">
+                <div class="about-img-background" data-aos="fade-down-right" data-aos-duration="2000"></div>
+                <div class="about-img-border"></div>
+                <div class="about-img-image" data-aos="fade-up-left" data-aos-duration="2000"></div>
+            </div>
+            <div class="about-paragraph">
+                <div class="about-paragraph-header">
+                    <p>Learn About Us</p>
+                    <h2>25 Years Experience</h2>
+                </div>
+                <div class="about-paragraph-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                        <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl
+                        nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.</p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- #Service-->
+    <section class="service" id="service">
+        <div class="service-container">
+            <div class="service-header">
+                <h2>Our Barber Services</h2>
+                <p>Good morning forth gathering doesn't god gathering man and had moveth there dry sixth dominion rule divided behold after had he did not move .</p>
+            </div>
+            <div class="service-image">
+                <div class="service-image-1" data-aos="fade-up-right" data-aos-duration="2000">
+                    <div class="service-image-1-image">
+                        <img src="img/service-1.png">
+                    </div>
+                    <div class="service-image-1-content">
+                        <h4>Color & Hair Wash</h4>
+                        <p>Good morning forth gathering does god gathering man and had moveth there dry so dominion rule divided had</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div class="service-image-2" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="service-image-2-image">
+                        <img src="img/service-2.png">
+                    </div>
+                    <div class="service-image-2-content">
+                        <h4>Stylish Hair Cut</h4>
+                        <p>Good morning forth gathering does god gathering man and had moveth there dry so dominion rule divided had</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div class="service-image-3" data-aos="fade-up-left" data-aos-duration="2000">
+                    <div class="service-image-3-image">
+                        <img src="img/service-3.png">
+                    </div>
+                    <div class="service-image-3-content">
+                        <h4>Wedding Hair</h4>
+                        <p>Good morning forth gathering does god gathering man and had moveth there dry so dominion rule divided had</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- #Price -->
+    <section class="price" id="price">
+        <div class="price-container">
+            <div class="price-header">
+                <h2>Pricing Plan</h2>
+                <p>Good morning forth gathering doesn't god gathering man and had moveth there dry sixth dominion rule divided behold after had he did not move .</p>
+            </div>
+            <div class="price-content" data-aos="fade-up" data-aos-duration="2000">
+                <div>
+                    <img src="img/price-1.jpg">
+                    <div class="price-content-img-text">
+                        <h2>Hair Cut</h2>
+                        <p>$9.99</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/price-2.jpg">
+                    <div class="price-content-img-text">
+                        <h2>Hair Wash</h2>
+                        <p>$10.99</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/price-3.jpg">
+                    <div class="price-content-img-text">
+                        <h2>Hair Color</h2>
+                        <p>$11.99</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/price-4.jpg">
+                    <div class="price-content-img-text">
+                        <h2>Hair Shave</h2>
+                        <p>$12.99</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/price-5.jpg">
+                    <div class="price-content-img-text">
+                        <h2>Hair Straight</h2>
+                        <p>$13.99</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/price-6.jpg">
+                    <div class="price-content-img-text">
+                        <h2>Facial</h2>
+                        <p>$14.99</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/price-7.jpg">
+                    <div class="price-content-img-text">
+                        <h2>Shampoo</h2>
+                        <p>$15.99</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/price-8.jpg">
+                    <div class="price-content-img-text">
+                        <h2>Beard Trim</h2>
+                        <p>$16.99</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/price-9.jpg">
+                    <div class="price-content-img-text">
+                        <h2>Beard Shave</h2>
+                        <p>$17.99</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/price-10.jpg">
+                    <div class="price-content-img-text">
+                        <h2>Wedding Cut</h2>
+                        <p>$18.99</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/price-11.jpg">
+                    <div class="price-content-img-text">
+                        <h2>Clean Up</h2>
+                        <p>$19.99</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/price-12.jpg">
+                    <div class="price-content-img-text">
+                        <h2>Massage</h2>
+                        <p>$20.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <!-- #Testimonials -->
+    <section class="testimonial" id="testimonial">
+        <div class="testimonial-container">
+            <div class="testimonial-item">
+                <div class="testimonial-item-container">
+                    <div class="testimonial-item-1">
+                        <img src="img/testimonial-1.jpg" alt="Image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac consequat. Fusce venenatis at lectus in malesuada. Suspendisse sit amet dolor et odio varius mattis.</p>
+                        <h2>Client Name</h2>
+                        <h3>Profession</h3>
+                    </div>
+                    <div class="testimonial-item-2">
+                        <img src="img/testimonial-2.jpg" alt="Image">
+                        <p>Phasellus pellentesque tempus pretium. Quisque in enim sit amet purus venenatis porttitor sed non velit. Vivamus vehicula finibus tortor. Aliquam vehicula molestie pulvinar. Sed varius libero in leo finibus, ac consectetur tortor
+                            rutrum.
+                        </p>
+                        <h2>Client Name</h2>
+                        <h3>Profession</h3>
+                    </div>
+                    <div class="testimonial-item-3">
+                        <img src="img/testimonial-3.jpg" alt="Image">
+                        <p>Sed in lectus eu eros tincidunt cursus. Aliquam eleifend velit nisl. Sed et posuere urna, ut vestibulum massa. Integer quis magna non enim luctus interdum. Phasellus sed eleifend erat. Aliquam ligula ex, semper vel tempor pellentesque,
+                            pretium eu nulla.</p>
+                        <h2>Client Name</h2>
+                        <h3>Profession</h3>
+                    </div>
+                </div>
+                <button class="testimonial-btn-prev" onclick="testimonialBtnPrev()"><i class="fa fa-angle-left"></i></button>
+                <button class="testimonial-btn-next" onclick="testimonialBtnNext()"><i class="fa fa-angle-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- #Barbers -->
+    <section class="barbers" id="barbers">
+        <div class="barbers-header">
+            <h2>Meet Our Artist</h2>
+            <p>Good morning forth gathering doesn't god gathering man and had moveth there dry sixth dominion rule divided behold after had he did not move .</p>
+        </div>
+        <div class="barbers-content" data-aos="fade-up" data-aos-duration="2000">
+            <div class="barbers-content-container">
+                <div class="barbers-content-img">
+                    <img src="img/brb-1.jpg">
+                </div>
+                <h1>Jeff Wittek</h1>
+            </div>
+            <div class="barbers-content-container">
+                <div class="barbers-content-img">
+                    <img src="img/brb-2.jpg">
+                </div>
+                <h1>David Dobrik</h1>
+            </div>
+            <div class="barbers-content-container">
+                <div class="barbers-content-img">
+                    <img src="img/brb-3.jpg">
+                </div>
+                <h1>Nick Antonyan</h1>
+            </div>
+            <div class="barbers-content-container">
+                <div class="barbers-content-img">
+                    <img src="img/brb-4.jpg">
+                </div>
+                <h1>Nerf Wittek</h1>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- #Message -->
+    <section class="message">
+        <div class="message-container">
+            <img src="img/msgImg.jpg">
+            <div class="message-forms">
+                <form>
+                    <input type="text" placeholder="&nbsp;&nbsp;&nbsp;Your Name">
+                    <input type="text" placeholder="&nbsp;&nbsp;&nbsp;Your Email">
+                    <input type="text" placeholder="&nbsp;&nbsp;&nbsp;Subject">
+                    <textarea class="msgMessage" placeholder="&nbsp;&nbsp;&nbsp;Write Message Here"></textarea>
+                    <button>Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- #blog-->
+    <section class="blog">
+        <div class="blog-container">
+            <div class="blog-header">
+                <h2>Latest Style News</h2>
+                <p>Good morning forth gathering doesn't god gathering man and had moveth there dry sixth dominion rule divided behold after had he did not move .</p>
+            </div>
+            <div class="blog-image">
+                <div class="blog-image-1" data-aos="fade-up-right" data-aos-duration="2000">
+                    <div class="blog-image-1-image">
+                        <img src="img/blog-1.png">
+                    </div>
+                    <div class="blog-image-1-content">
+                        <h5>ART, ILLUSTRATION &nbsp;&nbsp;|&nbsp;&nbsp; March 30, 2019</h5>
+                        <h4>There Our You Divide Itseld..</h4>
+                        <p>Man moveth days wherein you're that made years he after us light let moved.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div class="blog-image-2" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="blog-image-2-image">
+                        <img src="img/blog-2.png">
+                    </div>
+                    <div class="blog-image-2-content">
+                        <h5>ART, ILLUSTRATION &nbsp;&nbsp;|&nbsp;&nbsp; March 30, 2019</h5>
+                        <h4>One Which Won Two Divide..</h4>
+                        <p>Man moveth days wherein you're that made years he after us light let moved.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div class="blog-image-3" data-aos="fade-up-left" data-aos-duration="2000">
+                    <div class="blog-image-3-image">
+                        <img src="img/blog-3.png">
+                    </div>
+                    <div class="blog-image-3-content">
+                        <h5>ART, ILLUSTRATION &nbsp;&nbsp;|&nbsp;&nbsp; March 30, 2019</h5>
+                        <h4>There Our You Divide Itseld..</h4>
+                        <p>Man moveth days wherein you're that made years he after us light let moved.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- #Footer-->
+    <footer class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-info-address">
+                    <div class="contact-info-div-header">
+                        <h2>Barber Address</h2>
+                    </div>
+                    <div class="contact-info-div-content">
+                        <p>&nbsp;<i class="fa fa-map-marker"></i>123 Street, New York, USA</p>
+                        <p><i class="fa fa-phone"></i>&nbsp;+012 345 67890</p>
+                        <p><i class="fa fa-envelope"></i>&nbsp;info@example.com</p>
+                        <div class="contact-info-div-content-social">
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-info-link">
+                    <div class="contact-info-div-header">
+                        <h2>Quick Links</h2>
+                    </div>
+                    <div class="contact-info-div-content">
+                        <ul class="contact-info-div-content-ul">
+                            <li>&nbsp;&nbsp;<a href="#">Terms to use</a></li>
+                            <li>&nbsp;&nbsp;<a href="#">Privacy policy</a></li>
+                            <li>&nbsp;&nbsp;<a href="#">Cookies</a></li>
+                            <li>&nbsp;&nbsp;<a href="#">Help</a></li>
+                            <li>&nbsp;&nbsp;<a href="#">FQAs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact-info-newsletter">
+                    <div class="contact-info-div-header">
+                        <h2>Newsletter</h2>
+                    </div>
+                    <div class="contact-info-div-content">
+                        <div class="contact-info-newsletter-content">
+                            <p>Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.</p>
+                            <form>
+                                <input type="text" placeholder="&nbsp;&nbsp;Email goes here">
+                                <button>Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-copyright">
+                <div>
+                    <p><b>© Jeff's Barbershop</b>, All Right Reserved.</p>
+                </div>
+                <div>
+                    <p>Design By<b>&nbsp;Warren Tapawan</b></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- AOS Library-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
