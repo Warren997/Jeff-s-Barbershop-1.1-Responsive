@@ -1,6 +1,7 @@
 # Jeff-s-Barbershop-1.1-Responsive
 
 This time I learn Css Media Query and make Jeff's Barbershop 1.1 responsive
+For live view of this website please download this repo and open the index.html
 
 ![](img/thumbnail-desktop.png)
 
